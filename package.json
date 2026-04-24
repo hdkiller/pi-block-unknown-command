@@ -1,0 +1,39 @@
+{
+  "name": "pi-block-unknown-command",
+  "version": "0.1.0",
+  "description": "A pi extension that blocks unknown slash commands before they reach the LLM.",
+  "author": "hdkiller",
+  "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-extension",
+    "slash-commands",
+    "commands"
+  ],
+  "files": [
+    "extensions",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hdkiller/pi-block-unknown-command.git"
+  },
+  "homepage": "https://github.com/hdkiller/pi-block-unknown-command#readme",
+  "bugs": {
+    "url": "https://github.com/hdkiller/pi-block-unknown-command/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
